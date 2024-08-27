@@ -1,0 +1,124 @@
+.ls {
+  background-image: linear-gradient(to right, #090049 0%, #377ef9 100%);
+  /* opacity: 0.3; */
+  color: white;
+  height: 85vh;
+}
+
+.ls-top {
+  padding: 20px;
+}
+
+.ls-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ls-nav .logo {
+  max-width: 30px;
+}
+
+.ls-nav .menu img {
+  max-height: 18px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.ls-nav .logo-title {
+  color: white;
+  padding-right: 10px;
+}
+
+.ls-search {
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  margin-top: 20px;
+}
+
+.ls-search img {
+  max-height: 18px;
+}
+
+.ls-search input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.ls-list {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.friends img {
+  max-height: 35px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.friends {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.friends div {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends span {
+  color: #ffffff;
+  font-size: 11px;
+}
+
+.friends:hover {
+  background-color: #4089f0;
+}
+
+.friends:hover span {
+  color: white;
+}
+
+.ls-nav .menu {
+  position: relative;
+  padding: 10px 0px;
+}
+
+.menu .sub-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 130px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  display: none;
+}
+
+.sub-menu hr {
+  border: none;
+  height: 1px;
+  background-color: #a4a4a4;
+  margin: 8px 0px;
+}
+
+.sub-menu p {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menu:hover .sub-menu {
+  display: block;
+}
