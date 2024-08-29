@@ -52,6 +52,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5px;
   margin-top: 8px;
+  /* contain: size; */
 }
 
 .rs-media div img {
@@ -86,4 +87,10 @@
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .rs {
+    display: none;
+  }
 }

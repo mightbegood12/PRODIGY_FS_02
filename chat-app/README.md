@@ -1,8 +1,19 @@
-# React + Vite
+Real-Time Chat App
+Overview
+This is a real-time chat application built with React. It utilizes Firebase for user authentication and data storage. The application allows users to sign up, log in, and engage in real-time chat conversations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+User Authentication: Sign up and log in using Firebase Authentication.
+Real-Time Chat: Send and receive messages in real time.
+Message Storage: Messages are stored in Firebase Firestore.
+User Presence: Track and display online users.
+Tech Stack
+Frontend: React
+Backend: Firebase
+Authentication: Firebase Authentication
+Database: Firebase Firestore
+Storage: Firebase Storage (optional, for file uploads)
+Prerequisites
+Node.js (>= 14.x)
+npm or yarn
+Firebase project (for authentication and Firestore)
